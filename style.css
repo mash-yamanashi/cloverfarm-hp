@@ -207,6 +207,35 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 500; margin: 0; }
 }
 .philosophy p { margin: 0 0 0.4rem; }
 
+/* ---------- Instagram ---------- */
+.instagram { background: var(--bg); }
+.instagram-note { color: var(--ink-soft); font-size: 0.9rem; margin: 0 0 2.6rem; }
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+  margin-top: 1rem;
+}
+.instagram-grid .instagram-media {
+  margin: 0 !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.instagram-more {
+  display: inline-block;
+  margin-top: 2.6rem;
+  padding-bottom: 4px;
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: var(--green-deep);
+  border-bottom: 1px solid var(--gold);
+}
+.instagram-more:hover { color: var(--gold); }
+
 /* ---------- Commitment ---------- */
 .commitment { background: var(--bg-alt); }
 .commitment-grid {
@@ -389,6 +418,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 500; margin: 0; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
+  .instagram-grid { grid-template-columns: 1fr; max-width: 360px; margin-left: auto; margin-right: auto; }
   .commitment-grid { grid-template-columns: 1fr; }
   .produce-row { gap: 2rem; }
   .produce-media { flex-basis: 32%; max-width: 220px; }
