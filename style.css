@@ -332,6 +332,6 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 700; margin: 0; }
   .site-nav .nav-shop:hover { background: none; color: var(--accent); }
   .nav-toggle { display: flex; }
 
-  .hero > img { height: 70vh; min-height: 360px; }
+  .hero > img { height: auto; min-height: 0; }
   .produce-list { grid-template-columns: repeat(2, 1fr); gap: 1.6rem 1rem; }
 }
