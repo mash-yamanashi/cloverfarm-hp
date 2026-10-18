@@ -7,8 +7,8 @@ cloverfarm-hp/
 ├── index.html   … ページ本体
 ├── style.css    … デザイン（配色・レイアウト）
 ├── images/
-│   ├── hero.jpg      … トップの写真（現在はロゴ代わりにも使用・仮）
-│   └── produce/      … 生産物ごとの写真（7品目すべて掲載済み）
+│   ├── hero.jpg      … トップの写真
+│   └── produce/      … 生産物ごとの写真（7品目、すべて.jpg・長辺900px）
 └── README.md
 ```
 
