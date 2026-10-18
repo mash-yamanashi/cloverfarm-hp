@@ -299,6 +299,7 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 700; margin: 0; }
 .footer-fine { font-size: 0.75rem; color: #8a8674; margin: 0; }
 
 /* ---------- Utility ---------- */
+.nb { display: inline-block; }
 .sp-only { display: none; }
 
 /* ---------- Responsive ---------- */
